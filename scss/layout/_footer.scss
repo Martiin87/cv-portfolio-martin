@@ -1,18 +1,66 @@
- .site__footer {
-   background-color: rgb(75, 54, 54); 
-   height: auto; 
-   margin: auto;
+@media screen and (min-width: 269px) and (max-width: 450px) {
+
+.title__footer {  
+  font-size: 0.9em;
+  color:black;
+  font-family: 'Advent Pro'; 
+}
+.site__footer {
+  background-color: rgb(28, 27, 27);
+   height: 100%;     
    position: relative; 
-   top: 20px; 
-   
-  .icone__footer {
-   margin-top: 20px;    
-  }
- .title__footer {
-   font-family: 'Advent Pro', sans-serif;
-   margin-top: 30px; 
-   color: white;
-   font-size: 2em;
- }
+   top: 50px; 
+}
 
 }
+
+@media screen and (min-width: 451px) and (max-width: 767px) {
+.title__footer {  
+  font-size: 2em;
+  color:black;
+  font-family: 'Advent Pro'; 
+}
+
+.site__footer {
+  background-color: rgb(28, 27, 27);
+   height: 100%;     
+   position: relative; 
+   top: 50px; 
+}
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) { 
+.title__footer {  
+  font-size: 2em;
+  color:black;
+  font-family: 'Advent Pro'; 
+}
+
+.site__footer {
+  background-color: rgb(28, 27, 27);
+  height: 100%;     
+  position: relative; 
+  top: 50px; 
+  }
+
+}
+
+  @media screen and (min-width: 992px) {
+.title__footer {  
+  font-size: 2em;
+  color:black;
+  font-family: 'Advent Pro'; 
+}
+
+.site__footer {
+  background-color: rgb(28, 27, 27);
+  height: 100%;     
+  position: relative; 
+  top: 50px; 
+  }
+     
+}
+
+ 
+ 

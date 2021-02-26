@@ -1,14 +1,147 @@
+@media screen and (min-width: 269px) and (max-width: 450px) {
+.logo {
+    width: 40%;
+    position: relative;
+    left: 70px;
+    bottom: 10px;    
+
+}
+
+.hr-header { 
+    border: 1px solid black;
+    opacity: 5%;  
+}
+
+header {
+    margin-bottom: - 150px;
+}
+
 .navbar {
-    height: 168px;
+    height: 118px;
+    position: relative;
+    bottom: 100px;
+    right: 10px;
+}
+
+.nav-item {
+    text-align: left;
+}
+
+#menu a {
+    color:#9e9191; 
+  }
+
+}
+
+@media screen and (min-width: 451px) and (max-width: 767px) {
+.logo {
+    width: 40%;
+    position: relative;
+    left: 30%; 
+    bottom: 10px;     
+
+}
+
+.hr-header { 
+    border: 1px solid black;
+    opacity: 5%;  
+}
+
+header {
+    margin-bottom: - 150px;
+}
+
+.navbar {
+    height: 118px;
+    position: relative;
+    bottom: 100px;
+    right: 10px;
+}
+
+.nav-item {
+    text-align: left; 
+}
+
+#menu a {
+    color:#9e9191; 
+  }
+
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) { 
+.logo {
+    width: 40%;
+    position: relative;
+    left: 30%; 
+    bottom: 10px;     
+
+}
+
+.hr-header { 
+    border: 1px solid black;
+    opacity: 5%;  
+}
+
+header {
+    margin-bottom: - 150px;
+}
+
+.navbar {
+    height: 118px;
+    position: relative;
+    bottom: 330px;
+    right: 10px;
+    color: black;
     
-.icone__nav {
-margin-right: 10px;  
+}
+
+#menu a {
+    color:#9e9191; 
+  }
+
+.nav-item {
+    text-align: left;
+    font-size: 3em;
+}
+
+}
+
+@media screen and (min-width: 992px) {
+.logo {
+    width: 40%;
+    position: relative;
+    right: 30%;  
+    bottom: 10px;     
+
+}
+
+.hr-header { 
+    border: 1px solid black;
+    opacity: 5%;  
+}
+
+header {
+    margin-bottom: - 150px;
+}
+
+.navbar {
+    height: 118px;
+    position: relative;
+    bottom: 330px;
+    left: 40px;
+    color: black;
+    
+}
+
+#menu a {
+    color:#070707;
+    font-family: 'Advent Pro';
+    margin-right: 30px;   
     }
 
-.logo {
-    width: 130px;   
-    position: relative;
-    bottom: 20px;  
-    right: 10px;
-     } 
+.nav-item {
+    text-align: left;
+    font-size: 3em;
+}
 }
